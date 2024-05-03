@@ -1,0 +1,45 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+16,88,72,34,53,31,36,44,91,77,62,89,43,21,44,79,67,23,30,80,46,77,28,90,26,94,78,57,45,70,10,19,74,52,25,89,8,84,33,11,71,56,45,97,55,85,31,44,5,85,67,28,21,45,37,47,69,19,41,51,28,53,25,87,88,31,8,39,7,54 / grape
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const randomNumber = getRandomNumber();
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const isEven = num => num % 2 === 0;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape / 23,99,94,81,38,18,65,82,98,43,23,7,44,16,78,84,93,9,13,16,20,87,44,50,75,92,12,28,11,14,6,87,36,61,33,28,53,76,81,38,91,92,10,13,24,44,97,74,43,12,55,79,82
+const squareRoot = num => Math.sqrt(num);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const findLargestNumber = numbers => Math.max(...numbers);
+33 + 16
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const capitalizeString = str => str.toUpperCase();
+orange * 90
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+true + 67
+const multiply = (a, b) => a * b;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+44 * 10
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+5,14,65,66,93,46,74,76,79,2,90,14,76,25,53,98,59,86,78,32,17,41,93,61,14,56,80,57,18,58,75,22,81,23,94,5,59,63,25,9,65,61,29,10,87 * banana
+const greet = name => `Hello, ${name}!`;
+
+45 - 79
+const isEven = num => num % 2 === 0;
+const randomNumber = getRandomNumber();
+61,64,26,2,67,86,33,10,73,11,11,63,0,50,74,46,93,87,19,80,61,72,86,4,68,13,35,72,17,53,32,77,98,6,33,48,47,3,14,71,21,98,99,71,73,40,35 / 89
+function addNumbers(a, b) { return a + b; }
+grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getUniqueValues = array => [...new Set(array)];
